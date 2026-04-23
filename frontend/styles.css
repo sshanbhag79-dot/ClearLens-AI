@@ -1,0 +1,203 @@
+/* Premium "Bio-Reboot" Design System */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Core Colors */
+    --accent-emerald: #10b981;
+    --accent-blue: #3b82f6;
+    --bg-deep: #020617;
+    --surface-glass: rgba(15, 23, 42, 0.7);
+    --border-glass: rgba(255, 255, 255, 0.1);
+
+    /* Health Status Colors */
+    --status-green: #10b981;
+    --status-yellow: #f59e0b;
+    --status-red: #ef4444;
+
+    /* Text */
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+
+    /* Glass Specs */
+    --glass-blur: blur(16px);
+    --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    --radius-lg: 24px;
+    --radius-md: 16px;
+}
+
+/* Global App Styling */
+.stApp {
+    background: var(--bg-deep);
+    background-image:
+        radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(79, 172, 254, 0.15) 0px, transparent 50%);
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif !important;
+    color: var(--text-main);
+}
+
+/* Typography Overhaul */
+h1,
+h2,
+h3,
+h4,
+.stHeader {
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 800 !important;
+    letter-spacing: -1px !important;
+    background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Premium Glass Container */
+[data-testid="stVerticalBlock"]>div>div>.element-container .result-card,
+.stCard,
+div[data-testid="stExpander"],
+div[data-testid="stMetric"],
+div[data-testid="stMetric"]:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Reactive Buttons */
+.stButton>button {
+    background: var(--surface-glass) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 50px !important;
+    padding: 0.6rem 1.5rem !important;
+    font-weight: 600 !important;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stButton>button:hover {
+    background: var(--primary-gradient) !important;
+    border-color: transparent !important;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white !important;
+}
+
+.stButton>button:active {
+    transform: translateY(0) scale(0.98);
+}
+
+/* Primary Action Buttons */
+.stButton>button[kind="primary"] {
+    background: var(--primary-gradient) !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
+}
+
+.stButton>button[kind="primary"]:hover {
+    box-shadow: 0 8px 25px rgba(79, 172, 254, 0.6);
+}
+
+/* Inputs with Glow */
+.stTextInput>div>div>input,
+.stSelectbox>div>div>div {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.stTextInput>div>div>input:focus {
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 2px rgba(79, 172, 254, 0.3);
+}
+
+/* Animations */
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.element-container,
+.stMarkdown {
+    animation: fadeInSlideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom Status Classes */
+.status-container {
+    padding: 20px;
+    border-radius: var(--radius);
+    background: rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.status-safe {
+    border-left: 5px solid var(--success);
+}
+
+.status-caution {
+    border-left: 5px solid var(--warning);
+}
+
+.status-avoid {
+    border-left: 5px solid var(--danger);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Result Card Styling */
+.result-card {
+    background: var(--surface-glass);
+    border: 1px solid var(--border-glass);
+    border-radius: var(--radius-md);
+    backdrop-filter: var(--glass-blur);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Force text visibility overrides */
+.result-card h3 {
+    color: #FFFFFF !important;
+    background: none !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    margin: 0 !important;
+}
+
+.result-card p {
+    color: #e2e8f0 !important;
+    /* Light grey/slate-200 */
+    font-size: 0.85rem !important;
+    margin: 2px 0 0 0 !important;
+    opacity: 1 !important;
+}
