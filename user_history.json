@@ -1,0 +1,620 @@
+{
+    "TestUser_Persistence": [
+        {
+            "barcode": "111222333",
+            "product_name": "Test Product",
+            "status": "Green",
+            "timestamp": 1770526306.1934226
+        }
+    ],
+    "sandeep": [
+        {
+            "status": "Yellow",
+            "reason": "Contains added sugar and artificial additives, conflicting with the low-sugar dietary goal.",
+            "alternative": "Sparkling water with a splash of freshly squeezed orange and lemon juice.",
+            "product": {
+                "code": "5449000011527",
+                "product_name": "fanta Orange 330ml",
+                "ingredients_text": "carbonated water: concentrated orange juice (10%): sugar: concentrated lemon juice (2%): natural orange aromas with other natural aromas: preservative: potassium sorbate: stabilizing guar gum: honey extracts coloring: carotenoids,",
+                "image_url": "https://images.openfoodfacts.org/images/products/544/900/001/1527/front_en.357.400.jpg",
+                "nutriscore": "c",
+                "calories": 19.0,
+                "quantity_val": 330.0,
+                "quantity_unit": "330ml",
+                "marketing_claims": "Contiene una fuente de fenilalanina,Punto Verde,Aromas naturales,Con edulcorantes"
+            },
+            "pros": [
+                "Contains some real orange juice (10%)"
+            ],
+            "cons": [
+                "High sugar content",
+                "Artificial preservative (Potassium Sorbate)",
+                "Artificial colors (Carotenoids)"
+            ],
+            "health_score": 40,
+            "ingredients_analysis": [
+                {
+                    "name": "Carbonated Water",
+                    "status": "Safe",
+                    "reason": "Hydrating and generally harmless.",
+                    "significance": "Low"
+                },
+                {
+                    "name": "Concentrated Orange Juice",
+                    "status": "Safe",
+                    "reason": "Provides some vitamins but is concentrated.",
+                    "significance": "Medium"
+                },
+                {
+                    "name": "Sugar",
+                    "status": "Avoid",
+                    "reason": "High sugar intake is detrimental to health and conflicts with low-sugar goals.",
+                    "significance": "High"
+                },
+                {
+                    "name": "Concentrated Lemon Juice",
+                    "status": "Safe",
+                    "reason": "Adds flavor and some vitamin C.",
+                    "significance": "Low"
+                },
+                {
+                    "name": "Natural Orange Aromas",
+                    "status": "Safe",
+                    "reason": "Generally considered safe, but specifics are not always transparent.",
+                    "significance": "Low"
+                },
+                {
+                    "name": "Potassium Sorbate",
+                    "status": "Caution",
+                    "reason": "A preservative that may cause allergic reactions in sensitive individuals.",
+                    "significance": "Medium"
+                },
+                {
+                    "name": "Guar Gum",
+                    "status": "Safe",
+                    "reason": "Used as a stabilizer and thickener, considered safe for most people.",
+                    "significance": "Low"
+                },
+                {
+                    "name": "Honey Extracts",
+                    "status": "Safe",
+                    "reason": "Adds a small amount of flavor.",
+                    "significance": "Trace"
+                },
+                {
+                    "name": "Carotenoids",
+                    "status": "Caution",
+                    "reason": "Food coloring, some people may be sensitive.",
+                    "significance": "Medium"
+                }
+            ],
+            "marketing_vs_reality": "While claiming 'natural aromas', it contains added sugar and additives, overshadowing the health benefits.",
+            "community_takeaway": "It's alright for an occasional treat, but don't make it a daily habit since it has added sugar and chemicals.",
+            "bio_red_flags": [
+                "Sugar",
+                "Potassium Sorbate",
+                "Carotenoids"
+            ],
+            "trust_score": 4,
+            "barcode": "5449000011527",
+            "timestamp": 1770549749.7159903
+        },
+        {
+            "status": "Red",
+            "reason": "Contains artificial sweeteners and caramel color, which are not ideal for health-conscious individuals.",
+            "alternative": "Infuse water with sliced cucumbers, lemons, and mint for a refreshing and naturally flavored drink.",
+            "product": {
+                "code": " 87170146",
+                "product_name": "Pepsi max can 330ml",
+                "ingredients_text": "carbonated water, colour (caramel e150d), sweeteners (aspartame, acesulfame k), acids (phosphoric acid, citric acid), flavourings (including caffeine), preservative (potassium sorbate),",
+                "image_url": "https://images.openfoodfacts.org/images/products/000/008/717/0146/front_en.35.400.jpg",
+                "nutriscore": "c",
+                "calories": 0.303,
+                "quantity_val": 330.0,
+                "quantity_unit": "330ml",
+                "marketing_claims": "Contains a source of phenylalanine"
+            },
+            "pros": [
+                "Zero sugar"
+            ],
+            "cons": [
+                "Contains artificial sweeteners",
+                "Highly processed",
+                "Potential dental erosion due to acidity"
+            ],
+            "health_score": 20,
+            "ingredients_analysis": [
+                {
+                    "name": "Carbonated Water",
+                    "status": "Safe",
+                    "reason": "Hydrating and generally harmless.",
+                    "significance": "Low"
+                },
+                {
+                    "name": "Caramel E150d",
+                    "status": "Caution",
+                    "reason": "May contain potentially harmful compounds formed during manufacturing.",
+                    "significance": "Medium"
+                },
+                {
+                    "name": "Aspartame",
+                    "status": "Caution",
+                    "reason": "An artificial sweetener with potential health concerns for some individuals.",
+                    "significance": "High"
+                },
+                {
+                    "name": "Acesulfame K",
+                    "status": "Caution",
+                    "reason": "Another artificial sweetener with limited long-term safety data.",
+                    "significance": "Medium"
+                },
+                {
+                    "name": "Phosphoric Acid",
+                    "status": "Caution",
+                    "reason": "Can interfere with calcium absorption and contribute to dental erosion.",
+                    "significance": "Low"
+                },
+                {
+                    "name": "Citric Acid",
+                    "status": "Caution",
+                    "reason": "Can contribute to dental erosion with frequent consumption.",
+                    "significance": "Low"
+                },
+                {
+                    "name": "Flavourings (including caffeine)",
+                    "status": "Caution",
+                    "reason": "Unspecified flavorings can hide potentially problematic additives; caffeine can cause jitters and anxiety.",
+                    "significance": "Medium"
+                },
+                {
+                    "name": "Potassium Sorbate",
+                    "status": "Safe",
+                    "reason": "A common preservative, generally considered safe in small amounts.",
+                    "significance": "Low"
+                }
+            ],
+            "marketing_vs_reality": "The 'source of phenylalanine' claim is factual for those with phenylketonuria (PKU), but it does little to highlight any benefits for the general population and may even mislead consumers into thinking it has some positive attribute.",
+            "community_takeaway": "Choose water, unsweetened tea, or homemade lemonade to quench your thirst instead of this soda.",
+            "bio_red_flags": [
+                "Aspartame",
+                "Acesulfame K",
+                "Caramel E150d",
+                "Phosphoric Acid",
+                "Potassium Sorbate"
+            ],
+            "trust_score": 2,
+            "barcode": " 87170146",
+            "timestamp": 1770547337.0004506
+        },
+        {
+            "status": "Green",
+            "reason": "Stubbed for debugging",
+            "alternative": null,
+            "product": {
+                "code": "5449000011527",
+                "product_name": "fanta Orange 330ml",
+                "ingredients_text": "carbonated water: concentrated orange juice (10%): sugar: concentrated lemon juice (2%): natural orange aromas with other natural aromas: preservative: potassium sorbate: stabilizing guar gum: honey extracts coloring: carotenoids,",
+                "image_url": "https://images.openfoodfacts.org/images/products/544/900/001/1527/front_en.357.400.jpg",
+                "nutriscore": "c",
+                "calories": 19.0,
+                "quantity_val": 330.0,
+                "quantity_unit": "330ml",
+                "marketing_claims": "Contiene una fuente de fenilalanina,Punto Verde,Aromas naturales,Con edulcorantes"
+            },
+            "pros": [],
+            "cons": [],
+            "health_score": null,
+            "ingredients_analysis": [
+                {
+                    "name": "Test Ingredient",
+                    "status": "Safe",
+                    "reason": "Debugging",
+                    "significance": "Low"
+                }
+            ],
+            "marketing_vs_reality": null,
+            "community_takeaway": null,
+            "bio_red_flags": [],
+            "trust_score": null,
+            "barcode": "5449000011527",
+            "timestamp": 1770545957.6414435
+        },
+        {
+            "status": "Green",
+            "reason": "Stubbed for debugging",
+            "alternative": null,
+            "product": {
+                "code": " 87170146",
+                "product_name": "Pepsi max can 330ml",
+                "ingredients_text": "carbonated water, colour (caramel e150d), sweeteners (aspartame, acesulfame k), acids (phosphoric acid, citric acid), flavourings (including caffeine), preservative (potassium sorbate),",
+                "image_url": "https://images.openfoodfacts.org/images/products/000/008/717/0146/front_en.35.400.jpg",
+                "nutriscore": "c",
+                "calories": 0.303,
+                "quantity_val": 330.0,
+                "quantity_unit": "330ml",
+                "marketing_claims": "Contains a source of phenylalanine"
+            },
+            "pros": [],
+            "cons": [],
+            "health_score": null,
+            "ingredients_analysis": [
+                {
+                    "name": "Test Ingredient",
+                    "status": "Safe",
+                    "reason": "Debugging",
+                    "significance": "Low"
+                }
+            ],
+            "marketing_vs_reality": null,
+            "community_takeaway": null,
+            "bio_red_flags": [],
+            "trust_score": null,
+            "barcode": " 87170146",
+            "timestamp": 1770545906.4957762
+        },
+        {
+            "status": "Red",
+            "reason": "This product is high in sugar and contains artificial additives that are not ideal for a low-sugar diet and overall health.",
+            "alternative": "\ud83d\udfe2 Green 'System Reboot': Try making your own naturally flavored sparkling water with fresh orange and lemon slices. For sweetness, consider a small amount of stevia or monk fruit sweetener.",
+            "product": {
+                "code": "5449000011527",
+                "product_name": "fanta Orange 330ml",
+                "ingredients_text": "carbonated water: concentrated orange juice (10%): sugar: concentrated lemon juice (2%): natural orange aromas with other natural aromas: preservative: potassium sorbate: stabilizing guar gum: honey extracts coloring: carotenoids,",
+                "image_url": "https://images.openfoodfacts.org/images/products/544/900/001/1527/front_en.357.400.jpg",
+                "nutriscore": "c",
+                "calories": 19.0,
+                "quantity_val": 330.0,
+                "quantity_unit": "330ml",
+                "marketing_claims": "Contiene una fuente de fenilalanina,Punto Verde,Aromas naturales,Con edulcorantes"
+            },
+            "pros": [
+                "Contains some real orange and lemon juice."
+            ],
+            "cons": [
+                "High sugar content.",
+                "Contains artificial preservatives and stabilizers.",
+                "May not be suitable for strict low-sugar diets."
+            ],
+            "health_score": 30,
+            "ingredients_analysis": [
+                {
+                    "name": "Carbonated Water",
+                    "status": "Safe",
+                    "reason": "Hydrating base.",
+                    "significance": "High",
+                    "percentage": "Unknown"
+                },
+                {
+                    "name": "Concentrated Orange Juice",
+                    "status": "Safe",
+                    "reason": "Provides some natural flavor and vitamin C.",
+                    "significance": "Medium",
+                    "percentage": "10%"
+                },
+                {
+                    "name": "Sugar",
+                    "status": "Avoid",
+                    "reason": "High sugar content is detrimental to low-sugar dietary goals.",
+                    "significance": "High",
+                    "percentage": "Unknown"
+                },
+                {
+                    "name": "Concentrated Lemon Juice",
+                    "status": "Safe",
+                    "reason": "Adds natural acidity and flavor.",
+                    "significance": "Medium",
+                    "percentage": "2%"
+                },
+                {
+                    "name": "Natural Orange Aromas with Other Natural Aromas",
+                    "status": "Safe",
+                    "reason": "Flavor enhancement from natural sources.",
+                    "significance": "Low",
+                    "percentage": "Unknown"
+                },
+                {
+                    "name": "Potassium Sorbate",
+                    "status": "Caution",
+                    "reason": "Preservative. May cause mild allergic reactions in some individuals.",
+                    "significance": "Low",
+                    "percentage": "Trace"
+                },
+                {
+                    "name": "Guar Gum",
+                    "status": "Caution",
+                    "reason": "Stabilizer. Can cause digestive issues in some people.",
+                    "significance": "Low",
+                    "percentage": "Trace"
+                },
+                {
+                    "name": "Honey Extracts Coloring",
+                    "status": "Safe",
+                    "reason": "Natural coloring agent.",
+                    "significance": "Trace",
+                    "percentage": "Unknown"
+                },
+                {
+                    "name": "Carotenoids",
+                    "status": "Caution",
+                    "reason": "Coloring agent, derived from natural sources but can sometimes be synthetically produced; high doses should be watched.",
+                    "significance": "Trace",
+                    "percentage": "Trace"
+                }
+            ],
+            "marketing_vs_reality": "While marketed with 'Aromas naturales', the product relies heavily on sugar and additives, undermining the 'natural' claim. The 'Con edulcorantes' claim highlights the presence of sweeteners, which may not align with a low-sugar goal.",
+            "community_takeaway": "Hey, the 'natural' vibe is a bit of a stretch because of all the sugar and extras. Maybe swap this for something that's actually more whole-food based.",
+            "bio_red_flags": [
+                "Sugar",
+                "Potassium Sorbate",
+                "Guar Gum",
+                "Carotenoids"
+            ],
+            "trust_score": 3,
+            "barcode": "5449000011527",
+            "timestamp": 1770545460.4915035
+        },
+        {
+            "status": "Red",
+            "reason": "High sugar content and artificial additives make this a less healthy choice, especially given your low-sugar goals.",
+            "alternative": "\ud83d\udfe2 Green 'System Reboot': Try sparkling water with a squeeze of fresh orange or lemon. Add a few drops of stevia if you need a touch of sweetness. For the Leeds community, maybe source oranges locally!",
+            "product": {
+                "code": "5449000011527",
+                "product_name": "fanta Orange 330ml",
+                "ingredients_text": "carbonated water: concentrated orange juice (10%): sugar: concentrated lemon juice (2%): natural orange aromas with other natural aromas: preservative: potassium sorbate: stabilizing guar gum: honey extracts coloring: carotenoids,",
+                "image_url": "https://images.openfoodfacts.org/images/products/544/900/001/1527/front_en.357.400.jpg",
+                "nutriscore": "c",
+                "calories": 19.0,
+                "quantity_val": 330.0,
+                "quantity_unit": "330ml",
+                "marketing_claims": "Contiene una fuente de fenilalanina,Punto Verde,Aromas naturales,Con edulcorantes"
+            },
+            "pros": [
+                "Contains some orange and lemon juice."
+            ],
+            "cons": [
+                "High in sugar.",
+                "Contains artificial preservatives and colorings.",
+                "Low nutritional value."
+            ],
+            "health_score": 30,
+            "ingredients_analysis": [
+                {
+                    "name": "Carbonated Water",
+                    "status": "Safe",
+                    "reason": "It's fizzy water.",
+                    "percentage": "High"
+                },
+                {
+                    "name": "Concentrated Orange Juice",
+                    "status": "Caution",
+                    "reason": "Concentrated juice is often stripped of fiber and nutrients while retaining the sugar.",
+                    "percentage": "10%"
+                },
+                {
+                    "name": "Sugar",
+                    "status": "Avoid",
+                    "reason": "High sugar content; contradicts low-sugar goals.",
+                    "percentage": "Significant"
+                },
+                {
+                    "name": "Concentrated Lemon Juice",
+                    "status": "Caution",
+                    "reason": "Similar to orange juice concentrate, less beneficial than whole lemons.",
+                    "percentage": "2%"
+                },
+                {
+                    "name": "Natural Orange Aromas",
+                    "status": "Caution",
+                    "reason": "The term 'natural aromas' can be vague and doesn't necessarily imply a whole food source.",
+                    "percentage": "Low"
+                },
+                {
+                    "name": "Potassium Sorbate",
+                    "status": "Caution",
+                    "reason": "A preservative to extend shelf life. Some people may be sensitive to it.",
+                    "percentage": "Trace"
+                },
+                {
+                    "name": "Guar Gum",
+                    "status": "Caution",
+                    "reason": "A stabilizer, can cause digestive issues in some individuals.",
+                    "percentage": "Trace"
+                },
+                {
+                    "name": "Honey Extracts",
+                    "status": "Caution",
+                    "reason": "Added sugar source.",
+                    "percentage": "Trace"
+                },
+                {
+                    "name": "Carotenoids",
+                    "status": "Caution",
+                    "reason": "Coloring agent, often synthetically produced.",
+                    "percentage": "Trace"
+                }
+            ],
+            "marketing_vs_reality": "While marketed with 'natural orange aromas,' the high sugar and additives undermine the natural claim. It's not just oranges; it's a lot of other stuff too.",
+            "community_takeaway": "Hey, Leeds mate! Fanta might taste good, but it's loaded with sugar and some ingredients we can't even pronounce. Your body prefers whole stuff!",
+            "bio_red_flags": [
+                "Sugar",
+                "Potassium Sorbate",
+                "Carotenoids",
+                "Guar Gum",
+                "Concentrated Orange Juice"
+            ],
+            "trust_score": 3,
+            "barcode": "5449000011527",
+            "timestamp": 1770545305.7436569
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770542340.1569047
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770539689.827908
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770537354.8701186
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770536856.1668198
+        },
+        {
+            "barcode": "5449000011527",
+            "product_name": "fanta Orange 330ml",
+            "status": "Red",
+            "timestamp": 1770536285.117444
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770535946.7785943
+        },
+        {
+            "barcode": "4009900549912",
+            "product_name": "fruits",
+            "status": "Yellow",
+            "timestamp": 1770534847.8917403
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770534356.9396548
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770533679.9468906
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770533129.0286326
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770533120.9309807
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770532061.4496782
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770531419.3728828
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770530523.226834
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770529962.7281501
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770529172.5356243
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770529052.9047506
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770527660.8893769
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770527450.5950584
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770527154.2900078
+        },
+        {
+            "barcode": "5449000011527",
+            "product_name": "fanta Orange 330ml",
+            "status": "Red",
+            "timestamp": 1770526487.4960127
+        }
+    ],
+    "sapna": [
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770529780.0986803
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770529227.3825743
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770527914.5670419
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770527711.922516
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770527515.5283906
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770527267.0339851
+        },
+        {
+            "barcode": "87170146",
+            "product_name": "Pepsi max can 330ml",
+            "status": "Yellow",
+            "timestamp": 1770526563.1688864
+        }
+    ]
+}
