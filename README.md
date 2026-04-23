@@ -1,4 +1,4 @@
-# 🧬 ClearLens-AI (LeedsHack 2026)
+# 🧬 ClearLens-AI (EGN Build-a-thon 2026)
 
 Theme: Systems Rebooted (Health & Consumer Transparency)
 
