@@ -1,4 +1,4 @@
-# BioFilter Design Document
+# ClearLens-AI Design Document
 
 ## 1. Overview
 BioFilter is a consumer health application designed to decode food labels based on personalized user bio-profiles. It aims to provide clarity and safety for users with specific dietary needs or allergies.
